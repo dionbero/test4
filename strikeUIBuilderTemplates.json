@@ -1,63 +1,94 @@
 [ {
-  "name" : "destructive button",
-  "type" : "component",
   "currentItems" : [ {
-    "title" : "Button",
-    "id" : "380.026594835358618063",
-    "status" : "base",
-    "dropzone" : false,
-    "category" : "User Input",
-    "isInline" : true,
-    "paletteIconName" : "custom:custom18",
+    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>",
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
     "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
-    "children" : [ ],
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>"
-  } ]
-}, {
-  "currentItems" : [ {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
     "paletteIconName" : "custom:custom18",
     "isInline" : true,
     "category" : "User Input",
     "dropzone" : false,
     "status" : "base",
-    "id" : "380.3174743899091619",
-    "title" : "Button"
-  }, {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "paletteIconName" : "custom:custom18",
-    "isInline" : true,
-    "category" : "User Input",
-    "dropzone" : false,
-    "status" : "base",
-    "id" : "380.7345651157399824",
+    "id" : "380.026594835358618063",
     "title" : "Button"
   } ],
-  "type" : "page",
-  "name" : "page template test"
+  "type" : "component",
+  "name" : "destructive button"
 }, {
-  "name" : "ttest",
+  "name" : "page template test",
+  "type" : "page",
+  "currentItems" : [ {
+    "title" : "Button",
+    "id" : "380.3174743899091619",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  }, {
+    "title" : "Button",
+    "id" : "380.7345651157399824",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  } ]
+}, {
+  "currentItems" : {
+    "customCss" : "",
+    "elements" : [ {
+      "previewMarkup" : "<![CDATA[<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>]]>",
+      "unmodifiedMarkup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "children" : [ ],
+      "markup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "paletteIconName" : "custom:custom38",
+      "isInline" : true,
+      "category" : "Media",
+      "dropzone" : false,
+      "status" : "base",
+      "id" : "20.811711671216572",
+      "title" : "Icon"
+    } ]
+  },
+  "type" : "page",
+  "name" : "ttest"
+}, {
+  "name" : "another template",
   "type" : "page",
   "currentItems" : {
     "elements" : [ {
-      "title" : "Icon",
-      "id" : "20.811711671216572",
+      "title" : "Avatar",
+      "id" : "00.4141544136330708",
       "status" : "base",
       "dropzone" : false,
       "category" : "Media",
       "isInline" : true,
       "paletteIconName" : "custom:custom38",
-      "markup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "markup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
       "children" : [ ],
-      "unmodifiedMarkup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
-      "previewMarkup" : "<![CDATA[<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>]]>"
+      "unmodifiedMarkup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
+      "previewMarkup" : "<![CDATA[<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"https://www.lightningdesignsystem.com/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>]]>"
+    }, {
+      "title" : "Heading Large",
+      "id" : "310.867538389151618",
+      "status" : "base",
+      "dropzone" : false,
+      "category" : "Text",
+      "isInline" : false,
+      "paletteIconName" : "custom:custom55",
+      "markup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
+      "children" : [ ],
+      "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
+      "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>]]>"
     } ],
     "customCss" : ""
   }
@@ -65,31 +96,19 @@
   "currentItems" : {
     "customCss" : "",
     "elements" : [ {
-      "previewMarkup" : "<![CDATA[<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"https://www.lightningdesignsystem.com/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>]]>",
-      "unmodifiedMarkup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
+      "previewMarkup" : "<![CDATA[<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>]]>",
+      "unmodifiedMarkup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
       "children" : [ ],
-      "markup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
-      "paletteIconName" : "custom:custom38",
-      "isInline" : true,
-      "category" : "Media",
-      "dropzone" : false,
-      "status" : "base",
-      "id" : "00.4141544136330708",
-      "title" : "Avatar"
-    }, {
-      "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>]]>",
-      "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
-      "children" : [ ],
-      "markup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
-      "paletteIconName" : "custom:custom55",
+      "markup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
+      "paletteIconName" : "custom:custom62",
       "isInline" : false,
-      "category" : "Text",
+      "category" : "Page Data",
       "dropzone" : false,
       "status" : "base",
-      "id" : "310.867538389151618",
-      "title" : "Heading Large"
+      "id" : "280.560174938346645",
+      "title" : "Tile"
     } ]
   },
-  "type" : "page",
-  "name" : "another template"
+  "type" : "component",
+  "name" : "comptemp"
 } ]
