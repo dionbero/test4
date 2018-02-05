@@ -1,45 +1,64 @@
 [ {
-  "name" : "destructive button",
-  "type" : "component",
   "currentItems" : [ {
-    "title" : "Button",
-    "id" : "380.026594835358618063",
-    "status" : "base",
-    "dropzone" : false,
-    "category" : "User Input",
-    "isInline" : true,
-    "paletteIconName" : "custom:custom18",
+    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>",
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
     "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
-    "children" : [ ],
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>"
-  } ]
-}, {
-  "currentItems" : [ {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
     "paletteIconName" : "custom:custom18",
     "isInline" : true,
     "category" : "User Input",
     "dropzone" : false,
     "status" : "base",
-    "id" : "380.3174743899091619",
-    "title" : "Button"
-  }, {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "paletteIconName" : "custom:custom18",
-    "isInline" : true,
-    "category" : "User Input",
-    "dropzone" : false,
-    "status" : "base",
-    "id" : "380.7345651157399824",
+    "id" : "380.026594835358618063",
     "title" : "Button"
   } ],
+  "type" : "component",
+  "name" : "destructive button"
+}, {
+  "name" : "page template test",
   "type" : "page",
-  "name" : "page template test"
+  "currentItems" : [ {
+    "title" : "Button",
+    "id" : "380.3174743899091619",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  }, {
+    "title" : "Button",
+    "id" : "380.7345651157399824",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  } ]
+}, {
+  "currentItems" : {
+    "customCss" : "",
+    "elements" : [ {
+      "previewMarkup" : "<![CDATA[<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>]]>",
+      "unmodifiedMarkup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "children" : [ ],
+      "markup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "paletteIconName" : "custom:custom38",
+      "isInline" : true,
+      "category" : "Media",
+      "dropzone" : false,
+      "status" : "base",
+      "id" : "20.811711671216572",
+      "title" : "Icon"
+    } ]
+  },
+  "type" : "page",
+  "name" : "ttest"
 } ]
