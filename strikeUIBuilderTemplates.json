@@ -1,0 +1,17 @@
+[ {
+  "currentItems" : [ {
+    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>",
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
+    "paletteIconName" : "custom:custom18",
+    "isInline" : true,
+    "category" : "User Input",
+    "dropzone" : false,
+    "status" : "base",
+    "id" : "380.026594835358618063",
+    "title" : "Button"
+  } ],
+  "type" : "component",
+  "name" : "destructive button"
+} ]
