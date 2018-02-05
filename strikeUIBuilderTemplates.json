@@ -1,17 +1,45 @@
 [ {
+  "name" : "destructive button",
+  "type" : "component",
   "currentItems" : [ {
-    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>",
+    "title" : "Button",
+    "id" : "380.026594835358618063",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>"
+  } ]
+}, {
+  "currentItems" : [ {
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
     "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
     "children" : [ ],
-    "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
     "paletteIconName" : "custom:custom18",
     "isInline" : true,
     "category" : "User Input",
     "dropzone" : false,
     "status" : "base",
-    "id" : "380.026594835358618063",
+    "id" : "380.3174743899091619",
+    "title" : "Button"
+  }, {
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "paletteIconName" : "custom:custom18",
+    "isInline" : true,
+    "category" : "User Input",
+    "dropzone" : false,
+    "status" : "base",
+    "id" : "380.7345651157399824",
     "title" : "Button"
   } ],
-  "type" : "component",
-  "name" : "destructive button"
+  "type" : "page",
+  "name" : "page template test"
 } ]
