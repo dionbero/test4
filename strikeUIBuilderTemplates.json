@@ -1,63 +1,94 @@
 [ {
-  "name" : "destructive button",
-  "type" : "component",
   "currentItems" : [ {
-    "title" : "Button",
-    "id" : "380.026594835358618063",
-    "status" : "base",
-    "dropzone" : false,
-    "category" : "User Input",
-    "isInline" : true,
-    "paletteIconName" : "custom:custom18",
+    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>",
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
     "markup" : "<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>",
-    "children" : [ ],
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dream-momentum-3193-dev-ed.lightning.force.com/apex/tts_testing_this_shiz'\" class=\"slds-button slds-button_destructive\">\n    Button\n</button>]]>"
-  } ]
-}, {
-  "currentItems" : [ {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
     "paletteIconName" : "custom:custom18",
     "isInline" : true,
     "category" : "User Input",
     "dropzone" : false,
     "status" : "base",
-    "id" : "380.3174743899091619",
-    "title" : "Button"
-  }, {
-    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>",
-    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "children" : [ ],
-    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-    "paletteIconName" : "custom:custom18",
-    "isInline" : true,
-    "category" : "User Input",
-    "dropzone" : false,
-    "status" : "base",
-    "id" : "380.7345651157399824",
+    "id" : "380.026594835358618063",
     "title" : "Button"
   } ],
-  "type" : "page",
-  "name" : "page template test"
+  "type" : "component",
+  "name" : "destructive button"
 }, {
-  "name" : "ttest",
+  "name" : "page template test",
+  "type" : "page",
+  "currentItems" : [ {
+    "title" : "Button",
+    "id" : "380.3174743899091619",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  }, {
+    "title" : "Button",
+    "id" : "380.7345651157399824",
+    "status" : "base",
+    "dropzone" : false,
+    "category" : "User Input",
+    "isInline" : true,
+    "paletteIconName" : "custom:custom18",
+    "markup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "children" : [ ],
+    "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+    "previewMarkup" : "<![CDATA[<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>]]>"
+  } ]
+}, {
+  "currentItems" : {
+    "customCss" : "",
+    "elements" : [ {
+      "previewMarkup" : "<![CDATA[<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>]]>",
+      "unmodifiedMarkup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "children" : [ ],
+      "markup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "paletteIconName" : "custom:custom38",
+      "isInline" : true,
+      "category" : "Media",
+      "dropzone" : false,
+      "status" : "base",
+      "id" : "20.811711671216572",
+      "title" : "Icon"
+    } ]
+  },
+  "type" : "page",
+  "name" : "ttest"
+}, {
+  "name" : "another template",
   "type" : "page",
   "currentItems" : {
     "elements" : [ {
-      "title" : "Icon",
-      "id" : "20.811711671216572",
+      "title" : "Avatar",
+      "id" : "00.4141544136330708",
       "status" : "base",
       "dropzone" : false,
       "category" : "Media",
       "isInline" : true,
       "paletteIconName" : "custom:custom38",
-      "markup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
+      "markup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
       "children" : [ ],
-      "unmodifiedMarkup" : "<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>",
-      "previewMarkup" : "<![CDATA[<span class=\"slds-icon_container slds-icon-utility-announcement\" title=\"Description of icon when needed\">\n    <svg class=\"slds-icon slds-icon-text-default\" aria-hidden=\"true\">\n        <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#announcement\" />\n    </svg>\n    <span class=\"slds-assistive-text\">\n        Description of icon\n    </span>\n</span>]]>"
+      "unmodifiedMarkup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
+      "previewMarkup" : "<![CDATA[<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"https://www.lightningdesignsystem.com/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>]]>"
+    }, {
+      "title" : "Heading Large",
+      "id" : "310.867538389151618",
+      "status" : "base",
+      "dropzone" : false,
+      "category" : "Text",
+      "isInline" : false,
+      "paletteIconName" : "custom:custom55",
+      "markup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
+      "children" : [ ],
+      "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
+      "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>]]>"
     } ],
     "customCss" : ""
   }
@@ -65,236 +96,576 @@
   "currentItems" : {
     "customCss" : "",
     "elements" : [ {
-      "previewMarkup" : "<![CDATA[<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"https://www.lightningdesignsystem.com/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>]]>",
-      "unmodifiedMarkup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
+      "previewMarkup" : "<![CDATA[<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>]]>",
+      "unmodifiedMarkup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
       "children" : [ ],
-      "markup" : "<span class=\"slds-avatar\">\n    <img alt=\"Person name\" src=\"/assets/images/avatar2.jpg\" title=\"User avatar\" />\n</span>",
-      "paletteIconName" : "custom:custom38",
-      "isInline" : true,
-      "category" : "Media",
-      "dropzone" : false,
-      "status" : "base",
-      "id" : "00.4141544136330708",
-      "title" : "Avatar"
-    }, {
-      "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>]]>",
-      "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
-      "children" : [ ],
-      "markup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
-      "paletteIconName" : "custom:custom55",
+      "markup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
+      "paletteIconName" : "custom:custom62",
       "isInline" : false,
-      "category" : "Text",
+      "category" : "Page Data",
       "dropzone" : false,
       "status" : "base",
-      "id" : "310.867538389151618",
-      "title" : "Heading Large"
+      "id" : "280.560174938346645",
+      "title" : "Tile"
     } ]
   },
-  "type" : "page",
-  "name" : "another template"
-}, {
-  "name" : "comptemp",
   "type" : "component",
+  "name" : "comptemp"
+}, {
+  "name" : "Wizard 2 template",
+  "type" : "page",
   "currentItems" : {
+    "customCss" : "h1{color:green}\nh2{color:blue}",
     "elements" : [ {
-      "title" : "Tile",
-      "id" : "280.560174938346645",
+      "additionalClasses" : "slds-m-top_large",
+      "containerAlignment" : "slds-container_center",
+      "containerSize" : "slds-container_medium",
+      "title" : "Container",
+      "id" : "wizardHeaderContainer",
       "status" : "base",
-      "dropzone" : false,
-      "category" : "Page Data",
+      "markup" : "",
+      "dropzone" : true,
       "isInline" : false,
-      "paletteIconName" : "custom:custom62",
-      "markup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
-      "children" : [ ],
-      "unmodifiedMarkup" : "<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>",
-      "previewMarkup" : "<![CDATA[<article class=\"slds-tile\">\n    <h3 class=\"slds-tile__title slds-truncate\" title=\"Salesforce UX\">\n        <a href=\"javascript:void(0);\">\n            Salesforce UX\n        </a>\n    </h3>\n    <div class=\"slds-tile__detail\">\n        <dl class=\"slds-list_horizontal slds-wrap\">\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"First Label\">\n                First Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for first label\">\n                Description for first label\n            </dd>\n            <dt class=\"slds-item_label slds-text-color_weak slds-truncate\" title=\"Second Label\">\n                Second Label:\n            </dt>\n            <dd class=\"slds-item_detail slds-truncate\" title=\"Description for second label\">\n                Description for second label\n            </dd>\n        </dl>\n    </div>\n</article>]]>"
-    } ],
-    "customCss" : ""
+      "paletteIconName" : "custom:custom104",
+      "children" : [ {
+        "components" : [ {
+          "title" : "Heading Large",
+          "paletteIconName" : "custom:custom57",
+          "isInline" : false,
+          "dropzone" : false,
+          "id" : "wizardTextHeading",
+          "markup" : "<h1 class=\"slds-text-heading_large slds-text-align_center slds-p-top_xx-large slds-p-bottom_x-large\">\n    wiz page 2\n</h1>",
+          "style" : {
+            "border" : {
+              "top" : false,
+              "bottom" : false,
+              "left" : false,
+              "right" : false
+            },
+            "margin" : {
+              "type" : "uniform",
+              "around" : "",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            },
+            "padding" : {
+              "type" : "varied",
+              "around" : "",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            }
+          },
+          "children" : [ ],
+          "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
+          "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large slds-text-align_center slds-p-top_xx-large slds-p-bottom_x-large\">\n    wiz page 2\n</h1>]]>"
+        }, {
+          "title" : "Progress Indicator",
+          "id" : "wizardProgressIndicator",
+          "dropzone" : false,
+          "isInline" : false,
+          "paletteIconName" : "custom:custom57",
+          "markup" : "<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-completed\">\n            <button class=\"slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon\" title=\"Step 1 - Completed\">\n                <svg class=\"slds-button__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#success\" />\n                </svg>\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Completed\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"25\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 25%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 25%\n            </span>\n        </span>\n    </div>\n</div>",
+          "children" : [ ],
+          "unmodifiedMarkup" : "<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 0%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 0%\n            </span>\n        </span>\n    </div>\n</div>",
+          "previewMarkup" : "<![CDATA[<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-completed\">\n            <button class=\"slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon\" title=\"Step 1 - Completed\">\n                <svg class=\"slds-button__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#success\" />\n                </svg>\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Completed\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"25\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 25%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 25%\n            </span>\n        </span>\n    </div>\n</div>]]>"
+        } ]
+      } ]
+    }, {
+      "title" : "Container",
+      "id" : "wizardFormContainer",
+      "status" : "base",
+      "dropzone" : true,
+      "isInline" : false,
+      "markup" : "",
+      "containerAlignment" : "slds-container_center",
+      "containerSize" : "slds-container_medium",
+      "additionalClasses" : "slds-m-bottom_large",
+      "paletteIconName" : "custom:custom104",
+      "children" : [ {
+        "components" : [ {
+          "title" : "Heading Medium",
+          "id" : "320.9472022881397884",
+          "dropzone" : false,
+          "category" : "Text",
+          "isInline" : false,
+          "paletteIconName" : "custom:custom55",
+          "markup" : "<h2 class=\"slds-text-heading_medium\">\n    simple css styling\n</h2>",
+          "children" : [ ],
+          "unmodifiedMarkup" : "<h2 class=\"slds-text-heading_medium\">\n    Medium Heading\n</h2>",
+          "previewMarkup" : "<![CDATA[<h2 class=\"slds-text-heading_medium\">\n    simple css styling\n</h2>]]>"
+        } ]
+      } ]
+    }, {
+      "title" : "Grid",
+      "id" : "wizardFooterGrid",
+      "status" : "base",
+      "dropzone" : true,
+      "isInline" : false,
+      "paletteIconName" : "custom:custom104",
+      "markup" : "",
+      "children" : [ {
+        "id" : "0.13480549395787955",
+        "leftSize" : "1",
+        "rightSize" : "2",
+        "type" : "",
+        "additionalClasses" : "",
+        "components" : [ {
+          "title" : "Button",
+          "id" : "80.02749304439159439",
+          "status" : "0.13480549395787955",
+          "dropzone" : false,
+          "isInline" : true,
+          "paletteIconName" : "custom:custom57",
+          "markup" : "<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/spring-looks-funny'\" class=\"slds-button slds-button_neutral slds-m-around_medium\">\n    Back\n</button>",
+          "children" : [ ],
+          "style" : {
+            "border" : {
+              "top" : false,
+              "bottom" : false,
+              "left" : false,
+              "right" : false
+            },
+            "margin" : {
+              "type" : "uniform",
+              "around" : "medium",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            },
+            "padding" : {
+              "type" : "uniform",
+              "around" : "",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            }
+          },
+          "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+          "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/spring-looks-funny'\" class=\"slds-button slds-button_neutral slds-m-around_medium\">\n    Back\n</button>]]>"
+        } ]
+      }, {
+        "id" : "0.2555269187322169",
+        "leftSize" : "1",
+        "rightSize" : "2",
+        "type" : "grow-none",
+        "additionalClasses" : "",
+        "components" : [ {
+          "title" : "Button",
+          "id" : "80.13474577620342676",
+          "status" : "0.2555269187322169",
+          "dropzone" : false,
+          "isInline" : true,
+          "paletteIconName" : "custom:custom57",
+          "markup" : "<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/wizard-page-3'\" class=\"slds-button slds-button_brand slds-m-around_medium\">\n    Next\n</button>",
+          "children" : [ ],
+          "style" : {
+            "border" : {
+              "top" : false,
+              "bottom" : false,
+              "left" : false,
+              "right" : false
+            },
+            "margin" : {
+              "type" : "uniform",
+              "around" : "medium",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            },
+            "padding" : {
+              "type" : "uniform",
+              "around" : "",
+              "top" : "",
+              "bottom" : "",
+              "left" : "",
+              "right" : ""
+            }
+          },
+          "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
+          "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/wizard-page-3'\" class=\"slds-button slds-button_brand slds-m-around_medium\">\n    Next\n</button>]]>"
+        } ]
+      } ],
+      "wrap" : false,
+      "additionalClasses" : "",
+      "gutterSize" : "none"
+    } ]
   }
 }, {
   "currentItems" : {
     "elements" : [ {
+      "style" : {
+        "border" : {
+          "left" : false,
+          "bottom" : false,
+          "right" : false,
+          "top" : false
+        },
+        "margin" : {
+          "left" : "",
+          "bottom" : "",
+          "right" : "",
+          "top" : "",
+          "around" : "small",
+          "type" : "uniform"
+        },
+        "padding" : {
+          "left" : "",
+          "bottom" : "",
+          "right" : "",
+          "top" : "",
+          "around" : "",
+          "type" : "uniform"
+        }
+      },
+      "gutterSize" : "small",
+      "additionalClasses" : "slds-m-around_small",
+      "wrap" : true,
       "children" : [ {
         "components" : [ {
-          "previewMarkup" : "<![CDATA[<h1 class=\"slds-text-heading_large slds-text-align_center slds-p-top_xx-large slds-p-bottom_x-large\">\n    wiz page 2\n</h1>]]>",
-          "unmodifiedMarkup" : "<h1 class=\"slds-text-heading_large\">\n    Large Heading\n</h1>",
-          "children" : [ ],
+          "additionalClasses" : "slds-card",
+          "containerAlignment" : "none",
+          "containerSize" : "slds-container_fluid",
+          "children" : [ {
+            "components" : [ {
+              "previewMarkup" : "<![CDATA[<div class=\"slds-page-header\">\n    <div class=\"slds-media\">\n        <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-opportunity\" title=\"Description of icon when needed\">\n                <svg class=\"slds-icon slds-page-header__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/standard-sprite/svg/symbols.svg#opportunity\" />\n                </svg>\n            </span>\n        </div>\n        <div class=\"slds-media__body\">\n            <h1 class=\"slds-page-header__title slds-truncate slds-align-middle\" title=\"Rohde Corp - 80,000 Widgets\">\n                Rohde Corp - 80,000 Widgets\n            </h1>\n            <p class=\"slds-text-body_small slds-line-height_reset\">\n                Mark Jaeckal • Unlimited Customer • 11/13/15\n            </p>\n        </div>\n    </div>\n</div>]]>",
+              "unmodifiedMarkup" : "<div class=\"slds-page-header\">\n    <div class=\"slds-media\">\n        <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-opportunity\" title=\"Description of icon when needed\">\n                <svg class=\"slds-icon slds-page-header__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/standard-sprite/svg/symbols.svg#opportunity\" />\n                </svg>\n            </span>\n        </div>\n        <div class=\"slds-media__body\">\n            <h1 class=\"slds-page-header__title slds-truncate slds-align-middle\" title=\"Rohde Corp - 80,000 Widgets\">\n                Rohde Corp - 80,000 Widgets\n            </h1>\n            <p class=\"slds-text-body_small slds-line-height_reset\">\n                Mark Jaeckal • Unlimited Customer • 11/13/15\n            </p>\n        </div>\n    </div>\n</div>",
+              "style" : {
+                "border" : {
+                  "left" : false,
+                  "bottom" : false,
+                  "right" : false,
+                  "top" : false
+                },
+                "margin" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                },
+                "padding" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                }
+              },
+              "children" : [ ],
+              "markup" : "<div class=\"slds-page-header\">\n    <div class=\"slds-media\">\n        <div class=\"slds-media__figure\">\n            <span class=\"slds-icon_container slds-icon-standard-opportunity\" title=\"Description of icon when needed\">\n                <svg class=\"slds-icon slds-page-header__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/standard-sprite/svg/symbols.svg#opportunity\" />\n                </svg>\n            </span>\n        </div>\n        <div class=\"slds-media__body\">\n            <h1 class=\"slds-page-header__title slds-truncate slds-align-middle\" title=\"Rohde Corp - 80,000 Widgets\">\n                Rohde Corp - 80,000 Widgets\n            </h1>\n            <p class=\"slds-text-body_small slds-line-height_reset\">\n                Mark Jaeckal • Unlimited Customer • 11/13/15\n            </p>\n        </div>\n    </div>\n</div>",
+              "paletteIconName" : "custom:custom62",
+              "isInline" : false,
+              "category" : "Page Data",
+              "dropzone" : false,
+              "id" : "310.149702555695381050.5072661555420654",
+              "title" : "Page Header"
+            } ]
+          } ],
+          "markup" : "",
+          "paletteIconName" : "custom:custom104",
+          "isInline" : false,
+          "dropzone" : true,
+          "status" : 0.33517796167524594,
+          "id" : "9980.28933208619531015",
+          "title" : "Container"
+        } ],
+        "additionalClasses" : "slds-m-bottom_medium",
+        "largeRightSize" : "2",
+        "largeLeftSize" : "1",
+        "largeSize" : false,
+        "mediumRightSize" : "1",
+        "mediumLeftSize" : "1",
+        "mediumSize" : true,
+        "smallRightSize" : "2",
+        "smallLeftSize" : "1",
+        "smallSize" : false,
+        "rightSize" : "1",
+        "leftSize" : "1",
+        "type" : "sized",
+        "id" : 0.33517796167524594
+      }, {
+        "components" : [ {
           "style" : {
-            "padding" : {
-              "right" : "",
+            "border" : {
+              "left" : false,
+              "bottom" : false,
+              "right" : false,
+              "top" : false
+            },
+            "margin" : {
               "left" : "",
-              "bottom" : "",
+              "bottom" : "medium",
+              "right" : "",
               "top" : "",
               "around" : "",
               "type" : "varied"
             },
-            "margin" : {
-              "right" : "",
-              "left" : "",
-              "bottom" : "",
-              "top" : "",
-              "around" : "",
-              "type" : "uniform"
-            },
-            "border" : {
-              "right" : false,
-              "left" : false,
-              "bottom" : false,
-              "top" : false
-            }
-          },
-          "markup" : "<h1 class=\"slds-text-heading_large slds-text-align_center slds-p-top_xx-large slds-p-bottom_x-large\">\n    wiz page 2\n</h1>",
-          "id" : "wizardTextHeading",
-          "dropzone" : false,
-          "isInline" : false,
-          "paletteIconName" : "custom:custom57",
-          "title" : "Heading Large"
-        }, {
-          "previewMarkup" : "<![CDATA[<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-completed\">\n            <button class=\"slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon\" title=\"Step 1 - Completed\">\n                <svg class=\"slds-button__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/_slds/icons/v7.31.0/utility-sprite/svg/symbols.svg#success\" />\n                </svg>\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Completed\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"25\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 25%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 25%\n            </span>\n        </span>\n    </div>\n</div>]]>",
-          "unmodifiedMarkup" : "<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 0%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 0%\n            </span>\n        </span>\n    </div>\n</div>",
-          "children" : [ ],
-          "markup" : "<div class=\"slds-progress\">\n    <ol class=\"slds-progress__list\">\n        <li class=\"slds-progress__item slds-is-completed\">\n            <button class=\"slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon\" title=\"Step 1 - Completed\">\n                <svg class=\"slds-button__icon\" aria-hidden=\"true\">\n                    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/icons/utility-sprite/svg/symbols.svg#success\" />\n                </svg>\n                <span class=\"slds-assistive-text\">\n                    Step 1 - Completed\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item slds-is-active\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 2 - Active\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 3\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 4\n                </span>\n            </button>\n        </li>\n        <li class=\"slds-progress__item\">\n            <button class=\"slds-button slds-progress__marker\">\n                <span class=\"slds-assistive-text\">\n                    Step 5\n                </span>\n            </button>\n        </li>\n    </ol>\n    <div class=\"slds-progress-bar slds-progress-bar_x-small\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"25\" role=\"progressbar\">\n        <span class=\"slds-progress-bar__value\" style=\"width: 25%;\">\n            <span class=\"slds-assistive-text\">\n                Progress: 25%\n            </span>\n        </span>\n    </div>\n</div>",
-          "paletteIconName" : "custom:custom57",
-          "isInline" : false,
-          "dropzone" : false,
-          "id" : "wizardProgressIndicator",
-          "title" : "Progress Indicator"
-        } ]
-      } ],
-      "paletteIconName" : "custom:custom104",
-      "isInline" : false,
-      "dropzone" : true,
-      "markup" : "",
-      "status" : "base",
-      "id" : "wizardHeaderContainer",
-      "title" : "Container",
-      "containerSize" : "slds-container_medium",
-      "containerAlignment" : "slds-container_center",
-      "additionalClasses" : "slds-m-top_large"
-    }, {
-      "children" : [ {
-        "components" : [ {
-          "previewMarkup" : "<![CDATA[<h2 class=\"slds-text-heading_medium\">\n    simple css styling\n</h2>]]>",
-          "unmodifiedMarkup" : "<h2 class=\"slds-text-heading_medium\">\n    Medium Heading\n</h2>",
-          "children" : [ ],
-          "markup" : "<h2 class=\"slds-text-heading_medium\">\n    simple css styling\n</h2>",
-          "paletteIconName" : "custom:custom55",
-          "isInline" : false,
-          "category" : "Text",
-          "dropzone" : false,
-          "id" : "320.9472022881397884",
-          "title" : "Heading Medium"
-        } ]
-      } ],
-      "paletteIconName" : "custom:custom104",
-      "additionalClasses" : "slds-m-bottom_large",
-      "containerSize" : "slds-container_medium",
-      "containerAlignment" : "slds-container_center",
-      "markup" : "",
-      "isInline" : false,
-      "dropzone" : true,
-      "status" : "base",
-      "id" : "wizardFormContainer",
-      "title" : "Container"
-    }, {
-      "gutterSize" : "none",
-      "additionalClasses" : "",
-      "wrap" : false,
-      "children" : [ {
-        "components" : [ {
-          "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/spring-looks-funny'\" class=\"slds-button slds-button_neutral slds-m-around_medium\">\n    Back\n</button>]]>",
-          "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
-          "style" : {
             "padding" : {
-              "right" : "",
               "left" : "",
-              "bottom" : "",
-              "top" : "",
-              "around" : "",
-              "type" : "uniform"
-            },
-            "margin" : {
+              "bottom" : "medium",
               "right" : "",
-              "left" : "",
-              "bottom" : "",
               "top" : "",
-              "around" : "medium",
+              "around" : "small",
               "type" : "uniform"
-            },
-            "border" : {
-              "right" : false,
-              "left" : false,
-              "bottom" : false,
-              "top" : false
             }
           },
-          "children" : [ ],
-          "markup" : "<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/spring-looks-funny'\" class=\"slds-button slds-button_neutral slds-m-around_medium\">\n    Back\n</button>",
-          "paletteIconName" : "custom:custom57",
-          "isInline" : true,
-          "dropzone" : false,
-          "status" : "0.13480549395787955",
-          "id" : "80.02749304439159439",
-          "title" : "Button"
+          "additionalClasses" : "slds-card      slds-p-around_small slds-m-bottom_medium",
+          "containerAlignment" : "none",
+          "containerSize" : "slds-container_fluid",
+          "children" : [ {
+            "components" : [ {
+              "previewMarkup" : "<![CDATA[<div class=\"slds-tabs_default\">\n    <ul class=\"slds-tabs_default__nav\" role=\"tablist\">\n        <li class=\"slds-tabs_default__item slds-is-active\" title=\"Item One\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"0\" aria-selected=\"true\" aria-controls=\"tab-default-1\" id=\"tab-default-1__item\">\n                Item One\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Two\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-2\" id=\"tab-default-2__item\">\n                Item Two\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Three\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-3\" id=\"tab-default-3__item\">\n                Item Three\n            </a>\n        </li>\n    </ul>\n</div>]]>",
+              "unmodifiedMarkup" : "<div class=\"slds-tabs_default\">\n    <ul class=\"slds-tabs_default__nav\" role=\"tablist\">\n        <li class=\"slds-tabs_default__item slds-is-active\" title=\"Item One\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"0\" aria-selected=\"true\" aria-controls=\"tab-default-1\" id=\"tab-default-1__item\">\n                Item One\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Two\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-2\" id=\"tab-default-2__item\">\n                Item Two\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Three\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-3\" id=\"tab-default-3__item\">\n                Item Three\n            </a>\n        </li>\n    </ul>\n    <div id=\"tab-default-1\" class=\"slds-tabs_default__content slds-show\" role=\"tabpanel\" aria-labelledby=\"tab-default-1__item\">\n        Item One Content\n    </div>\n    <div id=\"tab-default-2\" class=\"slds-tabs_default__content slds-hide\" role=\"tabpanel\" aria-labelledby=\"tab-default-2__item\">\n        Item Two Content\n    </div>\n    <div id=\"tab-default-3\" class=\"slds-tabs_default__content slds-hide\" role=\"tabpanel\" aria-labelledby=\"tab-default-3__item\">\n        Item Three Content\n    </div>\n</div>",
+              "children" : [ ],
+              "markup" : "<div class=\"slds-tabs_default\">\n    <ul class=\"slds-tabs_default__nav\" role=\"tablist\">\n        <li class=\"slds-tabs_default__item slds-is-active\" title=\"Item One\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"0\" aria-selected=\"true\" aria-controls=\"tab-default-1\" id=\"tab-default-1__item\">\n                Item One\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Two\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-2\" id=\"tab-default-2__item\">\n                Item Two\n            </a>\n        </li>\n        <li class=\"slds-tabs_default__item\" title=\"Item Three\" role=\"presentation\">\n            <a class=\"slds-tabs_default__link\" href=\"javascript:void(0);\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-controls=\"tab-default-3\" id=\"tab-default-3__item\">\n                Item Three\n            </a>\n        </li>\n    </ul>\n</div>",
+              "paletteIconName" : "custom:custom96",
+              "isInline" : false,
+              "category" : "Navigation",
+              "dropzone" : false,
+              "id" : "160.49005193699451620.9637634198538363",
+              "title" : "Tabs"
+            }, {
+              "previewMarkup" : "<![CDATA[<h2 class=\"slds-text-heading_medium slds-p-top_small slds-p-right_small slds-p-left_small\">\n    Medium Heading\n</h2>]]>",
+              "unmodifiedMarkup" : "<h2 class=\"slds-text-heading_medium\">\n    Medium Heading\n</h2>",
+              "style" : {
+                "border" : {
+                  "left" : false,
+                  "bottom" : false,
+                  "right" : false,
+                  "top" : false
+                },
+                "margin" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                },
+                "padding" : {
+                  "left" : "small",
+                  "bottom" : "",
+                  "right" : "small",
+                  "top" : "small",
+                  "around" : "small",
+                  "type" : "varied"
+                }
+              },
+              "children" : [ ],
+              "markup" : "<h2 class=\"slds-text-heading_medium slds-p-top_small slds-p-right_small slds-p-left_small\">\n    Medium Heading\n</h2>",
+              "paletteIconName" : "custom:custom55",
+              "isInline" : false,
+              "category" : "Text",
+              "dropzone" : false,
+              "id" : "210.78256299183566670.5376558183539062",
+              "title" : "Heading Medium"
+            }, {
+              "style" : {
+                "border" : {
+                  "left" : false,
+                  "bottom" : false,
+                  "right" : false,
+                  "top" : false
+                },
+                "margin" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                },
+                "padding" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "medium",
+                  "type" : "uniform"
+                }
+              },
+              "additionalClasses" : "slds-p-around_medium",
+              "containerAlignment" : "none",
+              "containerSize" : "slds-container_fluid",
+              "children" : [ {
+                "components" : [ ]
+              } ],
+              "markup" : "",
+              "paletteIconName" : "custom:custom104",
+              "isInline" : false,
+              "dropzone" : true,
+              "id" : "9980.706851413472291",
+              "title" : "Container"
+            } ]
+          } ],
+          "markup" : "",
+          "paletteIconName" : "custom:custom104",
+          "isInline" : false,
+          "dropzone" : true,
+          "status" : 0.46003795434864236,
+          "id" : "9980.10443087753677527",
+          "title" : "Container"
         } ],
         "additionalClasses" : "",
-        "type" : "",
-        "rightSize" : "2",
+        "largeRightSize" : "2",
+        "largeLeftSize" : "1",
+        "largeSize" : false,
+        "mediumRightSize" : "3",
+        "mediumLeftSize" : "2",
+        "mediumSize" : true,
+        "smallRightSize" : "2",
+        "smallLeftSize" : "1",
+        "smallSize" : false,
+        "rightSize" : "1",
         "leftSize" : "1",
-        "id" : "0.13480549395787955"
+        "type" : "sized",
+        "id" : 0.46003795434864236
       }, {
         "components" : [ {
-          "previewMarkup" : "<![CDATA[<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/wizard-page-3'\" class=\"slds-button slds-button_brand slds-m-around_medium\">\n    Next\n</button>]]>",
-          "unmodifiedMarkup" : "<button class=\"slds-button slds-button_neutral\">\n    Button\n</button>",
           "style" : {
-            "padding" : {
-              "right" : "",
+            "border" : {
+              "left" : false,
+              "bottom" : false,
+              "right" : false,
+              "top" : false
+            },
+            "margin" : {
               "left" : "",
               "bottom" : "",
+              "right" : "",
               "top" : "",
               "around" : "",
               "type" : "uniform"
             },
-            "margin" : {
-              "right" : "",
+            "padding" : {
               "left" : "",
               "bottom" : "",
+              "right" : "",
               "top" : "",
-              "around" : "medium",
+              "around" : "small",
               "type" : "uniform"
-            },
-            "border" : {
-              "right" : false,
-              "left" : false,
-              "bottom" : false,
-              "top" : false
             }
           },
-          "children" : [ ],
-          "markup" : "<button onclick=\"window.location.href='https://dionbero.github.io/test4/tea/pages/wizard-page-3'\" class=\"slds-button slds-button_brand slds-m-around_medium\">\n    Next\n</button>",
-          "paletteIconName" : "custom:custom57",
-          "isInline" : true,
-          "dropzone" : false,
-          "status" : "0.2555269187322169",
-          "id" : "80.13474577620342676",
-          "title" : "Button"
+          "additionalClasses" : "slds-card  slds-p-around_small",
+          "containerAlignment" : "none",
+          "containerSize" : "slds-container_fluid",
+          "children" : [ {
+            "components" : [ {
+              "previewMarkup" : "<![CDATA[<h2 class=\"slds-text-heading_medium slds-p-around_xx-small slds-border_bottom\">\n    Medium Heading\n</h2>]]>",
+              "unmodifiedMarkup" : "<h2 class=\"slds-text-heading_medium\">\n    Medium Heading\n</h2>",
+              "style" : {
+                "border" : {
+                  "left" : false,
+                  "bottom" : true,
+                  "right" : false,
+                  "top" : false
+                },
+                "margin" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                },
+                "padding" : {
+                  "left" : "xx-small",
+                  "bottom" : "small",
+                  "right" : "xx-small",
+                  "top" : "xx-small",
+                  "around" : "xx-small",
+                  "type" : "uniform"
+                }
+              },
+              "children" : [ ],
+              "markup" : "<h2 class=\"slds-text-heading_medium slds-p-around_xx-small slds-border_bottom\">\n    Medium Heading\n</h2>",
+              "paletteIconName" : "custom:custom55",
+              "isInline" : false,
+              "category" : "Text",
+              "dropzone" : false,
+              "id" : "210.244279711241443650.07121205903628591",
+              "title" : "Heading Medium"
+            }, {
+              "style" : {
+                "border" : {
+                  "left" : false,
+                  "bottom" : false,
+                  "right" : false,
+                  "top" : false
+                },
+                "margin" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "",
+                  "type" : "uniform"
+                },
+                "padding" : {
+                  "left" : "",
+                  "bottom" : "",
+                  "right" : "",
+                  "top" : "",
+                  "around" : "medium",
+                  "type" : "uniform"
+                }
+              },
+              "additionalClasses" : "slds-p-around_medium",
+              "containerAlignment" : "none",
+              "containerSize" : "slds-container_fluid",
+              "children" : [ {
+                "components" : [ ]
+              } ],
+              "markup" : "",
+              "paletteIconName" : "custom:custom104",
+              "isInline" : false,
+              "dropzone" : true,
+              "id" : "9980.6617777461226544",
+              "title" : "Container"
+            } ]
+          } ],
+          "markup" : "",
+          "paletteIconName" : "custom:custom104",
+          "isInline" : false,
+          "dropzone" : true,
+          "status" : 0.19969679477557256,
+          "id" : "9980.1791956410348965",
+          "title" : "Container"
         } ],
         "additionalClasses" : "",
-        "type" : "grow-none",
-        "rightSize" : "2",
+        "largeRightSize" : "2",
+        "largeLeftSize" : "1",
+        "largeSize" : false,
+        "mediumRightSize" : "3",
+        "mediumLeftSize" : "1",
+        "mediumSize" : true,
+        "smallRightSize" : "2",
+        "smallLeftSize" : "1",
+        "smallSize" : false,
+        "rightSize" : "1",
         "leftSize" : "1",
-        "id" : "0.2555269187322169"
+        "type" : "sized",
+        "id" : 0.19969679477557256
       } ],
       "markup" : "",
       "paletteIconName" : "custom:custom104",
       "isInline" : false,
       "dropzone" : true,
       "status" : "base",
-      "id" : "wizardFooterGrid",
+      "id" : "9990.05757124152302007",
       "title" : "Grid"
     } ],
-    "customCss" : "h1{color:green}\nh2{color:blue}"
+    "customCss" : ""
   },
   "type" : "page",
-  "name" : "Wizard 2 template"
+  "name" : "record page template 2"
 } ]
